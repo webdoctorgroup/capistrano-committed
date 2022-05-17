@@ -16,10 +16,10 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['lib/**/*', 'capistrano-committed.gemspec', 'Gemfile', '*.md']
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '>= 2.3.8'
+  spec.required_ruby_version = '>= 3.1.1'
 
   spec.add_dependency 'capistrano', '~> 3'
-  spec.add_dependency 'github_api', '~> 0.18'
+  spec.add_dependency 'github_api', '~> 0.19'
   spec.add_dependency 'mustache', '~> 1'
   spec.add_dependency 'rack', '~> 2'
 
