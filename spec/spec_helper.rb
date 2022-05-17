@@ -16,7 +16,7 @@ require 'i18n'
 require 'capistrano/all'
 
 def t(key, options = {})
-  I18n.t(key, options.merge(scope: :capistrano))
+  I18n.t(key, **options.merge(scope: :capistrano))
 end
 
 require 'capistrano/committed'
